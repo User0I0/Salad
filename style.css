@@ -1,0 +1,80 @@
+@m {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+}
+body {
+  background: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+}
+
+.all {
+  margin-top: 300px;
+  position: relative;
+  width: 1646px;
+  height: 320px;
+  background: rgb(176, 204, 13);
+}
+
+.text-1 {
+  /* 1 day at the price of 23$ */
+  position: absolute;
+  width: 307px;
+  height: 102.58px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 26px;
+  margin-left: 171px;
+}
+
+.text-2 {
+  /* Make orders, take part in promotions, recommend us to friends or connect recommend us to friends or connect */
+  position: absolute;
+  width: 386px;
+  height: 72px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 145px;
+  margin-left: 172px;
+}
+
+.button {
+  position: relative;
+  width: 182px;
+  height: 61.32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background: rgb(255, 168, 0);
+  margin-top: 233px;
+  margin-left: 172px;
+  cursor: pointer;
+}
+
+.salate {
+  background-image: url(./img/salate);
+  position: absolute;
+  width: 476.44px;
+  height: 393.84px;
+  margin-left: 578px;
+}
+
+.salad {
+  background-image: url(./img/salad);
+}/*# sourceMappingURL=style.css.map */
