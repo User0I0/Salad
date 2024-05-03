@@ -1,22 +1,24 @@
-@m {
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
 body {
   background: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
-  position: relative;
 }
 
-.all {
+.container {
   margin-top: 300px;
-  position: absolute;
   width: 1646px;
+}
+
+.main {
+  position: relative;
   height: 320px;
+  width: 100%;
   background: rgb(176, 204, 13);
 }
 
@@ -54,7 +56,7 @@ body {
 }
 
 .button {
-  position: relative;
+  position: absolute;
   width: 182px;
   height: 61.32px;
   display: flex;
@@ -68,14 +70,14 @@ body {
   cursor: pointer;
 }
 
-.plait-image {
+.plate {
   position: absolute;
-  width: 476.44px;
-  height: 393.84px;
-  margin-left: 50px;
+  margin-left: 578px;
+  width: 576.44px;
+  height: 493.84px;
 }
 
-.vegs-image {
+.v {
   position: absolute;
   width: 738px;
   height: 330px;
