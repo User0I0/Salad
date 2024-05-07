@@ -5,7 +5,7 @@
 }
 
 body {
-  background: rgb(0, 0, 0);
+  background: black;
   display: flex;
   justify-content: center;
 }
@@ -19,7 +19,7 @@ body {
   position: relative;
   height: 320px;
   width: 100%;
-  background: rgb(176, 204, 13);
+  background: #b0cc0d;
 }
 
 .text-1 {
@@ -27,7 +27,7 @@ body {
   position: absolute;
   width: 307px;
   height: 102.58px;
-  color: rgb(255, 255, 255);
+  color: white;
   font-family: Montserrat;
   font-size: 40px;
   font-weight: 700;
@@ -44,7 +44,7 @@ body {
   position: absolute;
   width: 386px;
   height: 72px;
-  color: rgb(255, 255, 255);
+  color: white;
   font-family: Montserrat;
   font-size: 20px;
   font-weight: 400;
@@ -64,7 +64,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 32px;
-  background: rgb(255, 168, 0);
+  background: #ffa800;
   margin-top: 233px;
   margin-left: 172px;
   cursor: pointer;
@@ -83,4 +83,4 @@ body {
   width: 738px;
   height: 330px;
   margin-left: 1088px;
-}/*# sourceMappingURL=style.css.map */
+}
